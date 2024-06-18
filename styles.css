@@ -1,0 +1,85 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('taxidriver..jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+header h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5em; /* Adjust font size as needed */
+    margin: 0 0 10px; /* Adjust margins as needed */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+header .highlight {
+    color: yellow; /* Yellow color for the highlighted heading */
+}
+
+header .tagline {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em; /* Adjust font size as needed */
+    margin: 0 0 20px; /* Adjust margins as needed */
+    color: #fafefdba; /* White color for the tagline */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.poster-image-small {
+    width: 100%;
+    max-width: 300px; /* Adjust max-width as needed */
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.main-content {
+    margin-top: 20px;
+}
+
+.credits {
+    margin-bottom: 20px;
+}
+
+.credits h2 {
+    font-size: 1.2em; /* Adjust font size as needed */
+    color: #ffdd57;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.credits ul {
+    list-style: none;
+    padding: 0;
+}
+
+.credits ul li {
+    font-size: 1em; /* Adjust font size as needed */
+    margin: 5px 0;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 1em; /* Adjust font size as needed */
+}
+
+footer a {
+    color: #ffdd57; /* Yellow color for the footer links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
